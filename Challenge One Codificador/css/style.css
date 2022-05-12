@@ -1,0 +1,149 @@
+
+
+body{
+    background-color: #E5E5E5;
+}
+
+.main{
+    display: flex;
+}
+
+h1{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.input-text{
+    position: absolute;
+    width: 577px;
+    height: auto;
+    left: 240px;
+    top: 168px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    color: #0A3871;
+    background-color: transparent;
+    resize: none;
+    border: none;
+}
+
+.parte2{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1100px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    text-align: center;
+    padding: 20px;
+}
+
+.muñeco{
+    width: 336px;
+    height: 304px;
+    margin-top: 100px;
+}
+
+.info{
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+    margin-left: 33px;
+}
+
+.output-text{
+    width: 336px;
+    height: 75px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #495057;
+    margin: 30px;
+    border-style: none;
+    text-align: center;
+    background-color: transparent;
+    resize: none;
+    border: none;
+}
+
+.aclaracion{
+    position: absolute;
+    margin-left: 35px;
+    padding: 10px;
+    left: 110px;
+    top: 630px;
+}
+
+.encriptar{
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 100px;
+    top: 675px;
+    background: #0A3871;
+    border-radius: 24px;
+    margin: 0px 35px;
+    font-size: 20px;
+}
+
+.desencriptar{
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 600px;
+    top: 675px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    margin: 0px 35px;
+    font-size: 20px;
+}
+
+.encriptar:hover{
+    background: #0A3871;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.desencriptar:hover{
+    background: #d8dfe8;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.copiar{
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 630px;
+    right: 50px;
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: none;
+}
+
+.copiar:hover{
+    background: #FFFFFF;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
